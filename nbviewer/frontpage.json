@@ -1,10 +1,30 @@
-{"title": "nbviewer",
- "subtitle": "A simple way to share Jupyter Notebooks",
- "text": "Enter the location of a Jupyter Notebook to have it rendered here:",
- "show_input": true,
+{"title": "CASES",
+ "subtitle": "Computational Archival Science Educational System",
+ "text": "Notebooks for play, experimentation, adaption, and learning..",
+ "show_input": false,
  "sections":[
    {
-     "header":"Programming Languages",
+     "header":"Introducing CASES",
+     "links":[
+       {
+         "text": "Welcome",
+         "target": "github/ipython/ipython/blob/6.x/examples/IPython%20Kernel/Index.ipynb",
+         "img": "/static/img/example-nb/ipython-thumb.png"
+       },
+       {
+         "text": "Getting Started as a Student",
+         "target": "github/SciRuby/sciruby-notebooks/blob/master/getting_started.ipynb",
+         "img": "/static/img/example-nb/iruby-nb.png"
+       },
+       {
+         "text": "Getting Started as an Instructor",
+         "target": "url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb",
+         "img": "/static/img/example-nb/ijulia-preview.png"
+       }
+     ]
+   },
+   {
+     "header":"The CAS Curriculum",
      "links":[
        {
          "text": "IPython",
@@ -24,7 +44,7 @@
      ]
    },
    {
-     "header":"Books",
+     "header":"A Gentle Introduction to Computational Thinking",
      "links":[
        {
          "text": "Python for Signal Processing",
