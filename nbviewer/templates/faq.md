@@ -10,7 +10,7 @@
 
 [TOC]
 
-## What is nbviewer?
+## What is CASES?
 
 [nbviewer](https://github.com/jupyter/nbviewer)
 is a web application that lets you enter the URL of a Jupyter Notebook file,
