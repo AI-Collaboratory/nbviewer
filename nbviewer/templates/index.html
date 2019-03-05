@@ -28,7 +28,7 @@
         </form>
       </div>
     </div>
-    {% endif %} 
+    {% endif %}
   </header>
   {% endif %}
 
@@ -36,7 +36,7 @@
     <section>
       <h3 class="section-heading">{{section.header}}</h3>
       <div class="marketing">
-        <ul class="thumbnails example-sites">
+        <ul class="thumbnails example-sites{% if section.display == 'carousel' %} myslick{% endif %}">
           {% for link in section.links %}
             <li class="col-md-4">
               <p class="marketing-byline">{{link.text}}</p>
@@ -51,3 +51,11 @@
   {% endfor %}
 
 {% endblock body %}
+
+{% block extra_script %}
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.myslick').slick();
+  });
+</script>
+{% endblock extra_script %}
