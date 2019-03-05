@@ -1,6 +1,6 @@
 {"title": "CASES",
  "subtitle": "Computational Archival Science Educational System",
- "text": "Notebooks for play, experimentation, adaption, and learning..",
+ "text": "Practice notebooks for play, experimentation, adaption, and learning..",
  "show_input": false,
  "sections":[
    {
@@ -20,6 +20,42 @@
          "text": "Getting Started as an Instructor",
          "target": "url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb",
          "img": "/static/img/example-nb/ijulia-preview.png"
+       }
+     ]
+   },
+   {
+     "header":"CAS Example Projects",
+     "display":"carousel",
+     "links":[
+       {
+         "text": "Mapping Inequality",
+         "target": "github/ipython/ipython/blob/6.x/examples/IPython%20Kernel/Index.ipynb",
+         "img": "/static/img/cas-nb/mapping-inequality.png"
+       },
+       {
+         "text": "Global Journeys, Local Communities",
+         "target": "github/SciRuby/sciruby-notebooks/blob/master/getting_started.ipynb",
+         "img": "/static/img/cas-nb/gjlc.jpg"
+       },
+       {
+         "text": "Japanese American Incident Cards",
+         "target": "url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb",
+         "img": "/static/img/cas-nb/JAWW2.jpg"
+       },
+       {
+         "text": "White House C.A. Pool Reports",
+         "target": "url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb",
+         "img": "/static/img/cas-nb/whca-pool-reports.png"
+       },
+       {
+         "text": "Human Face of Big Data",
+         "target": "url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb",
+         "img": "/static/img/cas-nb/human-face-big-data.jpg"
+       },
+       {
+         "text": "Legacy of Slavery",
+         "target": "url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb",
+         "img": "/static/img/cas-nb/losim.jpg"
        }
      ]
    },
