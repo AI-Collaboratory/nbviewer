@@ -32,6 +32,20 @@
   </header>
   {% endif %}
 
+  <div>
+  <ul>
+  {% for category in categories %}
+    <li><a href="{{category.tag}}">{{category.name}}</a>
+      <ul>
+        {% for subcategory in category.subcategories %}
+        <li><a href="{{subcategory.tag}}">{{subcategory.name}}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+
   {% for section in sections %}
     <section>
       <h3 class="section-heading">{{section.header}}</h3>

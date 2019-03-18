@@ -38,7 +38,9 @@ class IndexHandler(BaseHandler):
             subtitle=self.frontpage_setup.get('subtitle', None),
             text=self.frontpage_setup.get('text', None),
             show_input=self.frontpage_setup.get('show_input', True),
-            sections=self.frontpage_setup.get('sections', [])))
+            sections=self.frontpage_setup.get('sections', []),
+            categories=self.frontpage_setup.get('categories',[]),
+            subcategories=self.frontpage_setup.get('subcategories',[])))
 
 
 class FAQHandler(BaseHandler):
