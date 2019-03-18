@@ -2,6 +2,25 @@
  "subtitle": "Computational Archival Science Educational System",
  "text": "Practice notebooks for play, experimentation, adaption, and learning..",
  "show_input": false,
+"categories": [
+   {
+    "name": "Data Practices",
+    "tag": "#Data_Practices",
+    "subcategories": [
+      {
+        "name":"DP1 - Collecting Data ",
+        "tag":"#dp_collecting_data"
+      },
+      {
+       "name":"DP2 - Creating Data",
+       "tag":"#dp_creating_data"
+      }
+    ]
+   },
+   {"name":"Modeling and Simulation Practices",
+    "tag":"#Modeling_Simulation_Practices"
+   }
+ ],
  "sections":[
    {
      "header":"Introducing CASES",
@@ -39,7 +58,7 @@
        },
        {
          "text": "Japanese American Incident Cards",
-         "target": "url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb",
+         "target": "github/umd-cases/Japanese-American-WWII/blob/master/PII_Algorithm.ipynb",
          "img": "/static/img/cas-nb/JAWW2.jpg"
        },
        {
