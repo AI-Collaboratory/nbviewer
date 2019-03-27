@@ -67,7 +67,7 @@
     <section>
       <h3 class="section-heading">{{section.header}}</h3>
       <div class="marketing">
-        <ul class="thumbnails example-sites{% if section.display == 'carousel' %} myslick{% endif %}">
+        <ul class="thumbnails example-sites{% if section.display == 'carousel' %} slider{% endif %}">
           {% for link in section.links %}
             <li class="col-md-4">
               <p class="marketing-byline">{{link.text}}</p>
@@ -85,8 +85,11 @@
 
 {% block extra_script %}
 <script type="text/javascript">
-  $(document).ready(function(){
-    
-  });
+  var slider = tns({
+      container: '.slider',
+      items: 3,
+      slideBy: 'page',
+      autoplay: false
+    });
 </script>
 {% endblock extra_script %}
