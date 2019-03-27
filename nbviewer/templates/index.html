@@ -32,19 +32,36 @@
   </header>
   {% endif %}
 
-  <div>
-  <ul>
-  {% for category in categories %}
-    <li><a href="{{category.tag}}">{{category.name}}</a>
+  <section class="col-md-5 col-md-offset-1">
+    <h3 class="section-heading">Computational Practices</h3>
+    <div>
       <ul>
-        {% for subcategory in category.subcategories %}
-        <li><a href="{{subcategory.tag}}">{{subcategory.name}}</a></li>
+        {% for category in categories %}
+        <li><a href="{{category.tag}}">{{category.name}}</a>
+          <ul>
+            {% for subcategory in category.subcategories %}
+            <li><a href="{{subcategory.tag}}">{{subcategory.name}}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
         {% endfor %}
       </ul>
-    </li>
-  {% endfor %}
-  </ul>
-</div>
+    </div>
+  </section>
+  <section class="col-md-5 col-md-offset-1">
+    <h3 class="section-heading">Teaching Resources</h3>
+    <div>
+      <ul>
+        {% for link in teachinglinks %}
+        <li>
+          <a href="{{ from_base(link.target) }}" target="_blank">
+          {{link.text}}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
 
   {% for section in sections %}
     <section>
@@ -69,7 +86,7 @@
 {% block extra_script %}
 <script type="text/javascript">
   $(document).ready(function(){
-    $('.myslick').slick();
+    
   });
 </script>
 {% endblock extra_script %}

@@ -51,8 +51,6 @@
 
   <!-- Le styles -->
   <link href="{{static_url("build/styles.css")}}" rel="stylesheet">
-  <link rel="stylesheet" href="{{static_url("components/slick-carousel/slick/slick.css")}}"/>
-  <link rel="stylesheet" href="{{static_url("components/slick-carousel/slick/slick-theme.css")}}"/>
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -79,6 +77,7 @@
   <script src="{{ static_url("components/jquery/dist/jquery.min.js") }}"></script>
   <script src="{{ static_url("components/requirejs/require.js") }}"></script>
   <script src="{{ static_url("components/moment/min/moment.min.js") }}"></script>
+  <script src="{{ static_url("components/tiny-slider/dist/min/tiny-slider.js") }}"></script>
 <!-- Navbar
 ================================================== -->
   <nav id="menubar" class="navbar navbar-default navbar-fixed-top" data-spy="affix">
@@ -89,7 +88,7 @@
           <i class="fa fa-bars"></i>
         </button>
         <a class="navbar-brand" href="{{ from_base('/') }}">
-          <img src="{{ static_url("img/nav_logo.svg") }}" width="159"/>
+          <img src="{{ static_url("img/nav_logo.png") }}" width="159"/>
         </a>
       </div>
 
