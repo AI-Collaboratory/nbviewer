@@ -39,6 +39,7 @@ class IndexHandler(BaseHandler):
             text=self.frontpage_setup.get('text', None),
             show_input=self.frontpage_setup.get('show_input', True),
             sections=self.frontpage_setup.get('sections', []),
+            teachinglinks=self.frontpage_setup.get('teachinglinks', []),
             categories=self.frontpage_setup.get('categories',[]),
             subcategories=self.frontpage_setup.get('subcategories',[])))
 
