@@ -87,9 +87,11 @@
 <script type="text/javascript">
   var slider = tns({
       container: '.slider',
-      items: 3,
-      slideBy: 'page',
-      autoplay: false
+      items: 2,
+      center: true,
+      autoplay: true,
+      autoplayTimeout: 4000,
+      speed: 800
     });
 </script>
 {% endblock extra_script %}
