@@ -5,20 +5,119 @@
  "categories": [
    {
     "name": "Data Practices",
-    "tag": "#Data_Practices",
+    "tag": "#DP",
     "subcategories": [
       {
-        "name":"DP1 - Collecting Data ",
+        "name":"DP1 - Collecting Data",
         "tag":"#dp_collecting_data"
       },
       {
        "name":"DP2 - Creating Data",
        "tag":"#dp_creating_data"
+      },
+      {
+       "name":"DP3 - Manipulating Data",
+       "tag":"#dp_manipulating_data"
+      },
+      {
+       "name":"DP4 - Analyzing Data",
+       "tag":"#dp_analyzing_data"
+      },
+      {
+       "name":"DP5 - Visualizing Data",
+       "tag":"#dp_visualizing_data"
       }
     ]
    },
-   {"name":"Modeling and Simulation Practices",
-    "tag":"#Modeling_Simulation_Practices"
+   {
+    "name":"Modeling and Simulation Practices",
+    "tag":"#MS",
+    "subcategories": [
+      {
+        "name":"MS1 - Using Computational Models to Understand a Concept",
+        "tag":"#ms_computational_models_concepts"
+      },
+      {
+       "name":"MS2 - Using Computational Models to Find and Test a Solution",
+       "tag":"#ms_computational_models_testing"
+      },
+      {
+       "name":"MS3 - Assessing Computational Models",
+       "tag":"#ms_computational_models_assessment"
+      },
+      {
+       "name":"MS4 - Designing Computational Models",
+       "tag":"#ms_computational_models_design"
+      },
+      {
+       "name":"MS5 - Constructing Computational Models",
+       "tag":"#ms_computational_models_constructing"
+      }
+    ]
+   },
+   {
+    "name":"Computational Problem Solving Practices",
+    "tag":"#CPS",
+    "subcategories": [
+      {
+        "name":"CPS1 - Preparing problems for Comp solutions",
+        "tag":"#cps_preparing_problems"
+      },
+      {
+       "name":"CPS2 - Programming",
+       "tag":"#cps_programming"
+      },
+      {
+       "name":"CPS3 - Choosing Effective Computational tools",
+       "tag":"#cps_choosing_tools"
+      },
+      {
+       "name":"CPS4 - Assessing different approaches to problem-solving",
+       "tag":"#cps_problem-solving_approaches"
+      },
+      {
+       "name":"CPS5 - Developing Modular Computational Solutions",
+       "tag":"#cps_developing_modular_solutions"
+      },
+      {
+        "name":"CPS6 - Creating Computational Abstractions",
+        "tag":"#cps_creating_abstractions"
+      },
+      {
+        "name":"CPS7 - Troubleshooting and Debugging",
+        "tag":"#cps_troubleshooting_debugging"
+      }
+    ]
+   },
+   {
+    "name":"Systems Thinking Practices",
+    "tag":"#ST",
+    "subcategories": [
+      {
+        "name":"ST1 - Investigating Complex Systems",
+        "tag":"#st_investigating_complex_systems"
+      },
+      {
+       "name":"ST2 - Understanding Relationships within Systems",
+       "tag":"#st_understanding_relationships"
+      },
+      {
+       "name":"ST3 - Thinking in Levels",
+       "tag":"#st_level_thinking"
+      },
+      {
+       "name":"ST4 - Communicating Information about a System",
+       "tag":"#st_communicating_information"
+      },
+      {
+       "name":"ST5 - Defining Systems",
+       "tag":"#st_defining_systems"
+      },
+      {
+        "name":"ST6 - Managing Complexity",
+        "tag":"#st_managing_complexity"
+      }
+    ]
    }
  ],
  "teachinglinks":[
@@ -42,7 +141,7 @@
  "sections":[
    {
      "header":"CASE Projects",
-     "display":"carousel",
+     "display":"slider",
      "links":[
        {
          "text": "Mapping Inequality",

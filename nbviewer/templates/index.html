@@ -34,18 +34,15 @@
 
   <section class="col-md-5 col-md-offset-1">
     <h3 class="section-heading">Computational Practices</h3>
-    <div>
-      <ul>
+    <div id="accordion">
         {% for category in categories %}
-        <li><a href="{{category.tag}}">{{category.name}}</a>
-          <ul>
-            {% for subcategory in category.subcategories %}
-            <li><a href="{{subcategory.tag}}">{{subcategory.name}}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
+        <h4 data-tag="{{category.tag}}">{{category.name}}</h4>
+        <ul>
+          {% for subcategory in category.subcategories %}
+          <li><a href="{{subcategory.tag}}">{{subcategory.name}}</a></li>
+          {% endfor %}
+        </ul>
         {% endfor %}
-      </ul>
     </div>
   </section>
   <section class="col-md-5 col-md-offset-1">
@@ -67,7 +64,7 @@
     <section>
       <h3 class="section-heading">{{section.header}}</h3>
       <div class="marketing">
-        <ul class="thumbnails example-sites{% if section.display == 'carousel' %} slider{% endif %}">
+        <ul class="thumbnails example-sites{% if section.display == 'slider' %} slider{% endif %}">
           {% for link in section.links %}
             <li class="col-md-4">
               <p class="marketing-byline">{{link.text}}</p>
@@ -87,11 +84,74 @@
 <script type="text/javascript">
   var slider = tns({
       container: '.slider',
-      items: 2,
+      items: 3,
       center: true,
+      nav: false,
       autoplay: true,
+      autoplayButtonOutput: false,
       autoplayTimeout: 4000,
-      speed: 800
+      speed: 800,
+      controlsPosition: 'bottom'
     });
 </script>
+<script type="text/javascript">
+  require({
+      paths: {
+        "jquery": "{{ static_url("components/jquery/dist/jquery.min.js")}}",
+        "jquery-ui": "{{ static_url("components/jquery-ui/jquery-ui.min.js") }}"
+      }
+    }, ["jquery-ui"], function(jq){
+      $( "#accordion" ).accordion();
+  });
+</script>
 {% endblock extra_script %}
+
+{% block extra_head %}
+<style media="screen">
+  .tns-controls { text-align: center; margin-bottom: 10px; }
+  .tns-controls [aria-controls] {
+    font-size: 15px;
+    margin: 0 5px;
+    padding: 0 1em;
+    height: 2.5em;
+    color: #000;
+    background: #66CCFF;
+    border-radius: 3px;
+    border: 0;
+  }
+  .lt-ie9 .tns-controls > [aria-controls] {
+    line-height: 2.5em;
+  }
+  [data-action] {
+    display: block;
+    margin: 10px auto;
+    font-size: 17px;
+    min-width: 3em;
+    text-align: center;
+    background: transparent;
+    border: 0;
+  }
+  .tns-controls [disabled] {
+    color: #999999;
+    background: #B3B3B3;
+    cursor: not-allowed !important;
+  }
+  .tns-nav {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .tns-nav > [aria-controls] {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: #ddd;
+    border: 0;
+  }
+  .tns-nav > .tns-nav-active { background: #999; }
+  .playbutton-wrapper { text-align: center; }
+  .playbutton-wrapper button { height: 34px; padding: 0 10px; font-size: 14px; background: #fff; border-radius: 3px; border: 1px solid  #ccc; cursor: pointer; }
+  .wrapper { padding: 0 5em; }
+</style>
+{% endblock extra_head %}
