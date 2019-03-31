@@ -13,7 +13,10 @@
    version="1.1"
    id="svg3791"
    sodipodi:docname="nav_logo.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/home/jansen/git/DataCave/nbviewer/nbviewer/static/img/nav_logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <metadata
      id="metadata3797">
     <rdf:RDF>
@@ -40,8 +43,8 @@
      inkscape:window-height="1329"
      id="namedview3793"
      showgrid="false"
-     inkscape:zoom="3.3658192"
-     inkscape:cx="384.54337"
+     inkscape:zoom="1.03"
+     inkscape:cx="366.93251"
      inkscape:cy="111.5"
      inkscape:window-x="0"
      inkscape:window-y="55"
@@ -55,30 +58,32 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot3799"
-       style="font-style:normal;font-weight:normal;font-size:160px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="translate(-6,-1.5772143)"><flowRegion
+       style="font-style:normal;font-weight:normal;font-size:160px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;stroke-width:3.20148444;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(1.2709051,0,0,1.2833801,3.1220371,-10.013315)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><flowRegion
          id="flowRegion3801"
-         style="font-size:160px"><rect
+         style="font-size:160px;fill:#800080;stroke-width:3.20148444;stroke-miterlimit:4;stroke-dasharray:none"><rect
            id="rect3803"
            width="705.02893"
            height="215.99496"
            x="2.3768358"
            y="2.2513638"
-           style="font-size:160px" /></flowRegion><flowPara
+           style="font-size:160px;fill:#800080;stroke-width:3.20148444;stroke-miterlimit:4;stroke-dasharray:none" /></flowRegion><flowPara
          id="flowPara3805"
-         style="font-size:160px">   <flowSpan
-   style="stroke:#000000;stroke-opacity:1"
-   id="flowSpan4614">CASES</flowSpan></flowPara></flowRoot>    <path
-       sodipodi:type="spiral"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.8;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path3807"
-       sodipodi:cx="70.710869"
-       sodipodi:cy="78.310112"
-       sodipodi:expansion="1"
-       sodipodi:revolution="3.3"
-       sodipodi:radius="63.21138"
-       sodipodi:argument="-18.244606"
-       sodipodi:t0="0.050000001"
-       d="m 70.487038,81.462745 c -2.954009,2.470452 -6.827512,-0.829549 -7.705519,-3.715602 -1.782548,-5.859318 3.312608,-11.229618 8.831456,-12.143098 8.511906,-1.408892 15.754061,5.818194 16.580678,13.947311 C 89.325269,90.679891 79.864627,99.872052 69.130487,100.56961 55.394313,101.46226 44.223507,89.728451 43.67465,76.390592 43.002224,60.049856 57.028446,46.886533 72.969526,46.497176 91.913551,46.034474 107.07724,62.36387 107.30052,80.907907 107.55995,102.45462 88.92076,119.62358 67.773936,119.67648 43.624837,119.73689 24.447332,98.783531 24.567782,75.034041 24.703457,48.282726 47.974014,27.094374 74.326078,27.390308 103.67951,27.719949 126.8804,53.309896 126.40739,82.264458 125.88536,114.21996 97.974388,139.43464 66.417385,138.78335 48.74564,138.41863 31.82019,130.14745 20.453938,116.64964" />
-  </g>
+         style="font-size:160px;fill:#800080;stroke:#000000;stroke-width:3.20148444;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><flowSpan
+           style="fill:#ff00ff;stroke-width:3.20148444;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowSpan4542">CAS</flowSpan><flowSpan
+           style="fill:#280b0b;stroke-width:3.20148444;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowSpan4544">ES</flowSpan></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot831"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion833"><rect
+           id="rect835"
+           width="423.88889"
+           height="72.222221"
+           x="183.33333"
+           y="135.22223" /></flowRegion><flowPara
+         id="flowPara837"></flowPara></flowRoot>  </g>
 </svg>
