@@ -122,20 +122,28 @@
  ],
  "teachinglinks":[
    {
-     "text": "Introduction to JupyterLab Notebooks",
-     "target": "github/ipython/ipython/blob/6.x/examples/IPython%20Kernel/Index.ipynb"
+     "text": "Quick Introduction to Jupyter Notebook (video)",
+     "target": "https://www.youtube.com/watch?v=jZ952vChhuI"
    },
    {
-     "text": "How to Teach through a Jupyter Notebook",
+     "text": "Jupyter/IPython Notebook Quick Start Guide",
+     "target": "https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/"
+   },
+   {
+     "text": "How to Teach through a Jupyter Notebook (TBD)",
      "target": "github/SciRuby/sciruby-notebooks/blob/master/getting_started.ipynb"
    },
    {
-     "text": "How to Contribute a CASE File",
-     "target": "url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb"
+     "text": "How to Contribute a CASE File (TBD)",
+     "target": "github/cases-umd/case-file-template/"
    },
    {
-     "text": "Examples from STEM Teaching",
-     "target": "url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb"
+     "text": "CASE File Template",
+     "target": "github/cases-umd/case-file-template/"
+   },
+   {
+     "text": "Computational Practices in STEM Teaching",
+     "target": "https://ct-stem.northwestern.edu/"
    }
  ],
  "sections":[
@@ -145,12 +153,12 @@
      "links":[
        {
          "text": "Mapping Inequality",
-         "target": "github/ipython/ipython/blob/6.x/examples/IPython%20Kernel/Index.ipynb",
+         "target": "github/cases-umd/dcic_baltimore-notebook/blob/master/baltimore_redlining_notebook/notebook/Baltimore%20.ipynb",
          "img": "/static/img/cas-nb/mapping-inequality.png"
        },
        {
          "text": "Global Journeys, Local Communities",
-         "target": "github/SciRuby/sciruby-notebooks/blob/master/getting_started.ipynb",
+         "target": "github/cases-umd/case-file-template/blob/master/index.ipynb",
          "img": "/static/img/cas-nb/gjlc.jpg"
        },
        {
@@ -160,17 +168,17 @@
        },
        {
          "text": "White House C.A. Pool Reports",
-         "target": "url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb",
+         "target": "github/cases-umd/case-file-template/blob/master/index.ipynb",
          "img": "/static/img/cas-nb/whca-pool-reports.png"
        },
        {
          "text": "Human Face of Big Data",
-         "target": "url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb",
+         "target": "github/cases-umd/case-file-template/blob/master/index.ipynb",
          "img": "/static/img/cas-nb/human-face-big-data.jpg"
        },
        {
          "text": "Legacy of Slavery",
-         "target": "url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb",
+         "target": "github/cases-umd/legacy-of-slavery/blob/master/notebook-4.ipynb",
          "img": "/static/img/cas-nb/losim.jpg"
        }
      ]
