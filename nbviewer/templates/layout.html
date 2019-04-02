@@ -51,8 +51,8 @@
 
   <!-- Le styles -->
   <link rel="stylesheet" href="{{static_url("components/tiny-slider/dist/tiny-slider.css")}}">
-  <link rel="stylesheet" href="{{static_url("components/jquery-ui/themes/base/core.css")}}">
-  <link rel="stylesheet" href="{{static_url("components/jquery-ui/themes/base/accordion.css")}}">
+  <link rel="stylesheet" href="{{static_url("components/jquery-ui/themes/base/jquery-ui.min.css")}}">
+  <!-- <link rel="stylesheet" href="{{static_url("components/jquery-ui/themes/base/accordion.css")}}"> -->
   <link href="{{static_url("build/styles.css")}}" rel="stylesheet">
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -102,7 +102,7 @@
           <li>
             <a class="active" href="http://jupyter.org">Powered by JUPYTER</a>
           </li>
-          {{ head_text(from_base('/faq'), "FAQ") }}
+          {{ head_text(from_base('/faq'), "About CASES") }}
 
           {% block otherlinks %}
             {% if provider_url %}

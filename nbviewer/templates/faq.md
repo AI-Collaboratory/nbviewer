@@ -6,11 +6,16 @@
 
 {% filter markdown(extensions=['toc'], extension_configs= {'toc' : [('anchorlink', True)]}) %}
 
-# Frequently Asked Questions
+# About CASES: Frequently Asked Questions
 
 [TOC]
 
 ## What is CASES?
+
+CASES is a website for showcasing, sharing, and teaching the computational practices
+that archivists and researchers in the archives are increasingly applying to digital archival materials. The site consists in project descriptions, lesson plans, and CASE files.
+
+## What is NBViewer?
 
 [nbviewer](https://github.com/jupyter/nbviewer)
 is a web application that lets you enter the URL of a Jupyter Notebook file,
