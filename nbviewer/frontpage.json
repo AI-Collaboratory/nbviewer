@@ -130,8 +130,8 @@
      "target": "https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/"
    },
    {
-     "text": "How to Teach through a Jupyter Notebook (TBD)",
-     "target": "github/SciRuby/sciruby-notebooks/blob/master/getting_started.ipynb"
+     "text": "Teaching and Learning with Jupyter",
+     "target": "https://jupyter4edu.github.io/jupyter-edu-book/"
    },
    {
      "text": "How to Contribute a CASE File (TBD)",
