@@ -138,6 +138,10 @@
      "target": "github/cases-umd/case-file-template/"
    },
    {
+     "text": "Intro to Python (fr. Machine Learning for Artists)",
+     "target": "github/ml4a/ml4a-guides/blob/master/notebooks/intro_python.ipynb"
+   },
+   {
      "text": "CASE File Template",
      "target": "github/cases-umd/case-file-template/"
    },
@@ -163,7 +167,7 @@
        },
        {
          "text": "Japanese American Incident Cards",
-         "target": "github/umd-cases/Japanese-American-WWII/blob/master/PII_Algorithm.ipynb",
+         "target": "github/cases-umd/Japanese-American-WWII/index.ipynb",
          "img": "/static/img/cas-nb/JAWW2.jpg"
        },
        {
@@ -186,7 +190,6 @@
    {
      "header":"Example Lesson Plans",
      "links":[
-
      ]
    }
  ]
