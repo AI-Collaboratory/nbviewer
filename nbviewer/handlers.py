@@ -49,6 +49,11 @@ class FAQHandler(BaseHandler):
     def get(self):
         self.finish(self.render_template('faq.md'))
 
+class ContributeHandler(BaseHandler):
+    """Render the markdown Contribute page"""
+    def get(self):
+        self.finish(self.render_template('contribute.md'))
+
 
 class CreateHandler(BaseHandler):
     """handle creation via frontpage form
@@ -114,11 +119,11 @@ def init_handlers(formats, providers, base_url, localfiles, **handler_kwargs):
     handler_settings = handler_kwargs['handler_settings']
 
     pre_providers = [
-        ('/?', IndexHandler, {}),
-        ('/index.html', IndexHandler, {}),
-        (r'/faq/?', FAQHandler, {}),
-        (r'/create/?', CreateHandler, {}),
-
+        ('/?', IndexHandler),
+        ('/index.html', IndexHandler),
+        (r'/faq/?', FAQHandler),
+        (r'/contribute/?', ContributeHandler),
+        (r'/create/?', CreateHandler),
         # don't let super old browsers request data-uris
         (r'.*/data:.*;base64,.*', Custom404, {}),
     ]
