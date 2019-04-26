@@ -40,6 +40,7 @@ class IndexHandler(BaseHandler):
             show_input=self.frontpage_setup.get('show_input', True),
             sections=self.frontpage_setup.get('sections', []),
             teachinglinks=self.frontpage_setup.get('teachinglinks', []),
+            caslinks=self.frontpage_setup.get('caslinks', []),
             categories=self.frontpage_setup.get('categories',[]),
             subcategories=self.frontpage_setup.get('subcategories',[])))
 

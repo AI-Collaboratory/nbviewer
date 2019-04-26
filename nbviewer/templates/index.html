@@ -47,6 +47,20 @@
     </div>
   </section>
   <section class="col-md-5 col-md-offset-1">
+    <h3 class="section-heading">Computation Archival Science</h3>
+    <div>
+      <ul>
+        {% for link in caslinks %}
+        <li>
+          <a href="{{ from_base(link.target) }}" target="_blank">
+          {{link.text}}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  <section class="col-md-5 col-md-offset-1">
     <h3 class="section-heading">Teaching Resources</h3>
     <div>
       <ul>

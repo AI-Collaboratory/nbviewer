@@ -150,6 +150,16 @@
      "target": "https://ct-stem.northwestern.edu/"
    }
  ],
+ "caslinks":[
+   {
+     "text": "IMLS-funded Computational Framework for Library-Archival Education",
+     "target": "https://dcicblog.umd.edu/ComputationalFrameworkForArchivalEducation/"
+   },
+   {
+     "text": "UMD iSchool's Digital Curation Innovation Center",
+     "target": "https://dcicblog.umd.edu/"
+   }
+ ],
  "sections":[
    {
      "header":"CASE Projects",
