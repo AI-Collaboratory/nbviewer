@@ -156,8 +156,8 @@
      "target": "https://dcicblog.umd.edu/ComputationalFrameworkForArchivalEducation/"
    },
    {
-     "text": "UMD iSchool's Digital Curation Innovation Center",
-     "target": "https://dcicblog.umd.edu/"
+     "text": "UMD iSchool's CAS Portal",
+     "target": "https://dcicblog.umd.edu/cas"
    }
  ],
  "sections":[
@@ -168,38 +168,42 @@
        {
          "text": "Mapping Inequality",
          "target": "github/cases-umd/Baltimore-Redlining/blob/master/notebook/Baltimore.ipynb",
-         "img": "/static/img/cas-nb/mapping-inequality.png"
+         "img": "/static/img/cas-nb/mapping-inequality.png",
+         "ready": true,
+         "theme": "RACIAL ZONING"
        },
        {
          "text": "Global Journeys, Local Communities",
          "target": "github/cases-umd/case-file-template/blob/master/index.ipynb",
-         "img": "/static/img/cas-nb/gjlc.jpg"
+         "img": "/static/img/cas-nb/gjlc.jpg",
+         "theme": "MOVEMENT OF PEOPLE"
        },
        {
          "text": "Japanese American Incident Cards",
          "target": "github/cases-umd/Japanese-American-WWII/blob/master/index.ipynb",
-         "img": "/static/img/cas-nb/JAWW2.jpg"
+         "img": "/static/img/cas-nb/JAWW2.jpg",
+         "ready": true,
+         "theme": "CITIZEN INCARCERATION"
        },
        {
          "text": "White House C.A. Pool Reports",
          "target": "github/cases-umd/case-file-template/blob/master/index.ipynb",
-         "img": "/static/img/cas-nb/whca-pool-reports.png"
+         "img": "/static/img/cas-nb/whca-pool-reports.png",
+         "theme": "PRESIDENTIAL TRANSPARENCY"
        },
        {
          "text": "Human Face of Big Data",
          "target": "github/cases-umd/case-file-template/blob/master/index.ipynb",
-         "img": "/static/img/cas-nb/human-face-big-data.jpg"
+         "img": "/static/img/cas-nb/human-face-big-data.jpg",
+         "theme": "COMMUNITY DISPLACEMENT"
        },
        {
          "text": "Legacy of Slavery",
          "target": "github/cases-umd/Legacy-of-Slavery/blob/master/index.ipynb",
-         "img": "/static/img/cas-nb/losim.jpg"
+         "img": "/static/img/cas-nb/losim.jpg",
+         "ready": true,
+         "theme": "REVEALING UNTOLD STORIES"
        }
-     ]
-   },
-   {
-     "header":"Example Lesson Plans",
-     "links":[
      ]
    }
  ]
