@@ -167,7 +167,7 @@
      "links":[
        {
          "text": "Mapping Inequality",
-         "target": "github/cases-umd/Baltimore-Redlining/blob/master/notebook/Baltimore.ipynb",
+         "target": "github/cases-umd/Baltimore-Redlining-1/blob/master/notebook/index.ipynb",
          "img": "/static/img/cas-nb/mapping-inequality.png",
          "ready": true,
          "theme": "RACIAL ZONING"
