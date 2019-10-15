@@ -93,22 +93,28 @@
         </button>
         <a class="navbar-brand" href="{{ from_base('/') }}">
           <img src="{{ static_url("img/nav_logo.png") }}" width="159"/>
-          Computational Archival Science Educational System
+          <small>Computational Archival Science Educational System</small>
         </a>
       </div>
 
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li>
+            <a href="{{ from_base('/faq') }}" title="About CASES">
+              <strong>FAQ</strong>
+            </a>
+          </li>
+          <li>
             <a href="{{ from_base('/contribute') }}" title="Contribute">
               <strong>Contribute</strong>
             </a>
           </li>
           <li>
-            <a href="{{ from_base('/faq') }}" title="About CASES">
-              <strong>FAQ</strong>
+            <a href="{{ from_base('/partners') }}" title="Partners">
+              <strong>Partners</strong>
             </a>
           </li>
+
           {% block otherlinks %}
             {% if provider_url %}
               {{ head_icon(provider_url, "View on " + provider_label, provider_icon) }}

@@ -203,6 +203,13 @@
          "img": "/static/img/cas-nb/losim.jpg",
          "ready": true,
          "theme": "REVEALING UNTOLD STORIES"
+       },
+       {
+         "text": "Reading Punchcards",
+         "target": "github/cases-umd/Reading-Punchcards/blob/master/index.ipynb",
+         "img": "/static/img/cas-nb/reading-punchcards.png",
+         "ready": true,
+         "theme": "REVEALING UNTOLD STORIES"
        }
      ]
    }

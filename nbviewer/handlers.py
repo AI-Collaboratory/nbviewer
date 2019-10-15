@@ -55,6 +55,10 @@ class ContributeHandler(BaseHandler):
     def get(self):
         self.finish(self.render_template('contribute.md'))
 
+class PartnersHandler(BaseHandler):
+    """Render the markdown Partners page"""
+    def get(self):
+        self.finish(self.render_template('partners.md'))
 
 class CreateHandler(BaseHandler):
     """handle creation via frontpage form
@@ -124,6 +128,7 @@ def init_handlers(formats, providers, base_url, localfiles, **handler_kwargs):
         ('/index.html', IndexHandler),
         (r'/faq/?', FAQHandler),
         (r'/contribute/?', ContributeHandler),
+        (r'/partners/?', PartnersHandler),
         (r'/create/?', CreateHandler),
         # don't let super old browsers request data-uris
         (r'.*/data:.*;base64,.*', Custom404, {}),
