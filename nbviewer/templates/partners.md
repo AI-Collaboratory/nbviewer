@@ -1,5 +1,14 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class="col-md-10 col-md-offset-1">
+
+{% filter markdown(extensions=['toc'], extension_configs= {'toc' : [('anchorlink', True)]}) %}
 
 # CASES Partners
+
+[TOC]
 
 ## Japanese American WWII CASE Module:
 ![Densho.org](http://densho.org/wp-content/uploads/2015/06/densho-logo.png)
@@ -27,3 +36,9 @@
 
 ## Human Face of Big Data:
 ### Asheville Southside Community Association (Priscilla Robinson)
+
+{% endfilter %}
+
+</div>
+
+{% endblock %}
