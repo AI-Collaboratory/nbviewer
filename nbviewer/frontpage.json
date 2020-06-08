@@ -173,23 +173,11 @@
          "theme": "RACIAL ZONING"
        },
        {
-         "text": "Global Journeys, Local Communities",
-         "target": "github/cases-umd/case-file-template/blob/master/index.ipynb",
-         "img": "/static/img/cas-nb/gjlc.jpg",
-         "theme": "MOVEMENT OF PEOPLE"
-       },
-       {
          "text": "Japanese American Incident Cards",
          "target": "github/cases-umd/Japanese-American-WWII/blob/master/index.ipynb",
          "img": "/static/img/cas-nb/JAWW2.jpg",
          "ready": true,
          "theme": "CITIZEN INCARCERATION"
-       },
-       {
-         "text": "White House C.A. Pool Reports",
-         "target": "github/cases-umd/case-file-template/blob/master/index.ipynb",
-         "img": "/static/img/cas-nb/whca-pool-reports.png",
-         "theme": "PRESIDENTIAL TRANSPARENCY"
        },
        {
          "text": "Human Face of Big Data",
