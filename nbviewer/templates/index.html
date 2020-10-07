@@ -86,7 +86,7 @@
             <li class="col-md-4">
               <p class="marketing-byline">{{link.theme}}<br /><small>{% if not(link.ready) %}Coming Soon: {% endif %}{{link.text}}</small></p>
               <a class="thumbnail" href="{{ from_base(link.target) }}" target="_blank">
-                <img src="{{ from_base(link.img) }}" />
+                <img src="{{ static_url(link.img) }}" />
               </a>
             </li>
           {% endfor %}
@@ -115,8 +115,8 @@
 <script type="text/javascript">
   require({
       paths: {
-        "jquery": "{{ static_url("components/jquery/dist/jquery.min.js")}}",
-        "jquery-ui": "{{ static_url("components/jquery-ui/jquery-ui.min.js") }}"
+        "jquery": "{{ static_url("components/jquery/dist/jquery.min")}}",
+        "jquery-ui": "{{ static_url("components/jquery-ui/jquery-ui.min") }}"
       }
     }, ["jquery-ui"], function(jq){
       $( "#accordion" ).accordion({
