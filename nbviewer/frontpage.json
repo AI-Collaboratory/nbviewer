@@ -153,11 +153,15 @@
  "caslinks":[
    {
      "text": "IMLS-funded Computational Framework for Library-Archival Education",
-     "target": "https://dcicblog.umd.edu/ComputationalFrameworkForArchivalEducation/"
+     "target": "https://ai-collaboratory.net/projects/ct-laser/"
    },
    {
      "text": "UMD iSchool's CAS Portal",
-     "target": "https://dcicblog.umd.edu/cas"
+     "target": "https://ai-collaboratory.net/cas/"
+   },
+   {
+     "text": "Piloting an Online Collaborative Network (CT-LASER+)",
+     "target": "https://ai-collaboratory.net/projects/piloting-ct-laser/"
    }
  ],
  "sections":[

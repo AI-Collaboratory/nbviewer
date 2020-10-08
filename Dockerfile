@@ -3,13 +3,14 @@ FROM python:3.7-buster as builder
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV LANG=C.UTF-8
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get update \
  && apt-get install -yq --no-install-recommends \
     ca-certificates \
     libcurl4-gnutls-dev \
     git \
     nodejs \
-    npm
+    libmemcached-dev
 
 # Python requirements
 COPY ./requirements-dev.txt /srv/nbviewer/
@@ -29,7 +30,7 @@ LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV LANG=C.UTF-8
-
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get update \
  && apt-get install -yq --no-install-recommends \
     ca-certificates \
