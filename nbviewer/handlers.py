@@ -142,7 +142,7 @@ def init_handlers(formats, providers, base_url, localfiles, **handler_kwargs):
         (r"/faq/?", faq_handler, {}),
         (r"/create/?", create_handler, {}),
         (r'/contribute/?', ContributeHandler, {}),
-        (r'/partners/?', PartnersHandler, {}),
+        #(r'/partners/?', PartnersHandler, {}),
         # don't let super old browsers request data-uris
         (r".*/data:.*;base64,.*", custom404_handler, {}),
     ]

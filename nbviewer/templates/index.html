@@ -33,6 +33,26 @@
   {% endif %}
 
   <section class="col-md-12">
+  {% for section in sections %}
+    <section>
+      <h3 class="section-heading">{{section.header}}</h3>
+      <div class="marketing">
+        <ul class="thumbnails example-sites{% if section.display == 'slider' %} slider{% endif %}">
+          {% for link in section.links %}
+            <li class="col-md-4">
+              <p class="marketing-byline">{{link.theme}}<br /><small>{% if not(link.ready) %}Coming Soon: {% endif %}{{link.text}}</small></p>
+              <a class="thumbnail" href="{{ from_base(link.target) }}" target="_blank">
+                <img src="{{ static_url(link.img) }}" />
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+  {% endfor %}
+  </section>
+
+  <section class="col-md-12">
   <section class="col-md-5 col-md-offset-1">
     <h3 class="section-heading">Computational Practices</h3>
     <div id="accordion">
@@ -75,26 +95,6 @@
     </div>
   </section>
   <section>
-
-  <section class="col-md-12">
-  {% for section in sections %}
-    <section>
-      <h3 class="section-heading">{{section.header}}</h3>
-      <div class="marketing">
-        <ul class="thumbnails example-sites{% if section.display == 'slider' %} slider{% endif %}">
-          {% for link in section.links %}
-            <li class="col-md-4">
-              <p class="marketing-byline">{{link.theme}}<br /><small>{% if not(link.ready) %}Coming Soon: {% endif %}{{link.text}}</small></p>
-              <a class="thumbnail" href="{{ from_base(link.target) }}" target="_blank">
-                <img src="{{ static_url(link.img) }}" />
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </section>
-  {% endfor %}
-  </section>
 
 {% endblock body %}
 
