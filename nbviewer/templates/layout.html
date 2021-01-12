@@ -61,7 +61,7 @@
   <![endif]-->
 
   <!-- Le fav and touch icons -->
-  <link rel="shortcut icon" href="/static/ico/ipynb_icon_16x16.png">
+  <link rel="shortcut icon" href="{{ static_url("ico/ipynb_icon_16x16.png") }}">
   <link rel="apple-touch-icon-precomposed" sizes="144x144"
         href="{{ static_url("ico/apple-touch-icon-144-precomposed.png") }}">
   <link rel="apple-touch-icon-precomposed" sizes="114x114"
@@ -75,13 +75,12 @@
 
 <body class="nbviewer">
 
-  <!-- These are loaded at the top of the body so they are available to
-       notebook cells when they are loaded below. -->
+  <!-- These are loaded at the top of the body so they are available to notebook cells when they are loaded below. -->
   <script src="{{ static_url("components/jquery/dist/jquery.min.js") }}"></script>
-  <!-- <script src="{{ static_url("components/jquery-ui/jquery-ui.min.js") }}"/> -->
   <script src="{{ static_url("components/requirejs/require.js") }}"></script>
   <script src="{{ static_url("components/moment/min/moment.min.js") }}"></script>
   <script src="{{ static_url("components/tiny-slider/dist/min/tiny-slider.js") }}"></script>
+  <!--<script src="{{ static_url("components/jquery-ui/jquery-ui.min.js") }}"></script>-->
 <!-- Navbar
 ================================================== -->
   <nav id="menubar" style="background-color: #ddd" class="navbar navbar-default navbar-fixed-top" data-spy="affix">
@@ -109,11 +108,11 @@
               <strong>Contribute</strong>
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="{{ from_base('/partners') }}" title="Partners">
               <strong>Partners</strong>
             </a>
-          </li>
+          </li> -->
 
           {% block otherlinks %}
             {% if provider_url %}
@@ -124,9 +123,10 @@
             {% endif %}
           {% endblock %}
           <li>
-            <a href="http://dcic.umd.edu" title="Digital Curation Innovation Center">
-              <img src="{{ static_url("img/dcic_logo.png") }}" />
-              <span class="menu-text">{{DCIC}}</span>
+            <a href="https://ai-collaboratory.net/" title="Advanced Information Collaboratory (AIC)">
+              <img src="{{ static_url("img/aic_logo.png") }}" />
+              <img height="50px" src="{{ static_url("img/aic_banner.png") }}" />
+              <span class="menu-text">{{AIC}}</span>
             </a>
           </li>
         </ul>
@@ -154,7 +154,7 @@
         <div class="col-md-4">
           <p>
             Delivered by <a href="http://www.fastly.com/">Fastly</a>,
-            Rendered by <a href="https://developer.rackspace.com/?nbviewer=awesome">Rackspace</a>
+            Rendered by <a href="https://ovhcloud.com">OVHcloud</a>
           </p>
           <p>
             nbviewer GitHub <a href="https://github.com/jupyter/nbviewer">repository</a>.
@@ -199,7 +199,7 @@
   <script>
     require({
         paths: {
-          moment: "{{ static_url("components/moment/min/moment.min.js") }}"
+          moment: "{{ static_url("components/moment/min/moment.min") }}"
         }
       }, ["moment"], function(moment){
       var date = $("footer .date"),

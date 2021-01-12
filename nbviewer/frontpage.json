@@ -175,11 +175,15 @@
  "caslinks":[
    {
      "text": "IMLS-funded Computational Framework for Library-Archival Education",
-     "target": "https://dcicblog.umd.edu/ComputationalFrameworkForArchivalEducation/"
+     "target": "https://ai-collaboratory.net/projects/ct-laser/"
    },
    {
-     "text": "UMD iSchool's CAS Portal",
-     "target": "https://dcicblog.umd.edu/cas"
+     "text": "CAS Portal",
+     "target": "https://ai-collaboratory.net/cas/"
+   },
+   {
+     "text": "IMLS-funded Pilot Online Collaborative Network (CT-LASER+)",
+     "target": "https://ai-collaboratory.net/projects/piloting-ct-laser/"
    }
  ],
  "sections":[
@@ -190,34 +194,34 @@
        {
          "text": "Mapping Inequality",
          "target": "github/cases-umd/Baltimore-Redlining-1/blob/master/notebook/index.ipynb",
-         "img": "/static/img/cas-nb/mapping-inequality.png",
+         "img": "/img/cas-nb/mapping-inequality.png",
          "ready": true,
          "theme": "RACIAL ZONING"
        },
        {
          "text": "Japanese American Incident Cards",
          "target": "github/cases-umd/Japanese-American-WWII/blob/master/index.ipynb",
-         "img": "/static/img/cas-nb/JAWW2.jpg",
+         "img": "/img/cas-nb/JAWW2.jpg",
          "ready": true,
          "theme": "CITIZEN INCARCERATION"
        },
        {
          "text": "Human Face of Big Data",
          "target": "github/cases-umd/case-file-template/blob/master/index.ipynb",
-         "img": "/static/img/cas-nb/human-face-big-data.jpg",
+         "img": "/img/cas-nb/human-face-big-data.jpg",
          "theme": "COMMUNITY DISPLACEMENT"
        },
        {
          "text": "Legacy of Slavery",
          "target": "github/cases-umd/Legacy-of-Slavery/blob/master/index.ipynb",
-         "img": "/static/img/cas-nb/losim.jpg",
+         "img": "/img/cas-nb/losim.jpg",
          "ready": true,
          "theme": "REVEALING UNTOLD STORIES"
        },
        {
          "text": "Reading Punchcards",
          "target": "github/cases-umd/Reading-Punchcards/blob/master/index.ipynb",
-         "img": "/static/img/cas-nb/reading-punchcards.png",
+         "img": "/img/cas-nb/reading-punchcards.png",
          "ready": true,
          "theme": "REVEALING UNTOLD STORIES"
        }
