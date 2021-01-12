@@ -6,116 +6,138 @@
    {
     "name": "Data Practices",
     "tag": "#DP",
+    "description" : "The nature of how data are collected, created, analyzed, and shared is rapidly changing primarily due to advancements in computational technologies.",
     "subcategories": [
       {
         "name":"DP1 - Collecting Data",
-        "tag":"#dp_collecting_data"
+        "tag":"#dp_collecting_data",
+        "description": "Data are collected through observation and measurement. Computational tools play a key role in gathering and recording a variety of data across many different archival endeavors. Computational tools can be useful in different phases of data collection, including the design of the collection protocol, recording, and storage."
       },
       {
        "name":"DP2 - Creating Data",
-       "tag":"#dp_creating_data"
+       "tag":"#dp_creating_data",
+       "description": "The increasingly computational nature of working with archival data underscores the importance of developing computational thinking practices in the classroom. Part of the challenge is teaching students that answers are drawn from the data available. In many cases archivists use computational tools to generate data… at scales that would otherwise be impossible."
       },
       {
        "name":"DP3 - Manipulating Data",
-       "tag":"#dp_manipulating_data"
+       "tag":"#dp_manipulating_data",
+       "description": "Computational tools make it possible to efficiently and reliably manipulate large and complex archival holdings. Data manipulation includes sorting, filtering, cleaning, normalizing, and joining disparate datasets."
       },
       {
        "name":"DP4 - Analyzing Data",
-       "tag":"#dp_analyzing_data"
+       "tag":"#dp_analyzing_data",
+       "description": "There are many strategies that can be employed when analyzing data for use in an archival context, including looking for patterns or anomalies, defining rules to categorize data, and identifying trends and correlations."
       },
       {
        "name":"DP5 - Visualizing Data",
-       "tag":"#dp_visualizing_data"
+       "tag":"#dp_visualizing_data",
+       "description": "Communicating results is an essential component of understanding archival data and computational tools can greatly facilitate that process. Tools include both conventional visualizations such as graphs and charts, as well as dynamic, interactive displays."
       }
     ]
    },
    {
     "name":"Modeling and Simulation Practices",
     "tag":"#MS",
+    "description": "The ability to create, refine, and use models of archival phenomena is a central practice… Models can include flowcharts and diagrams.",
     "subcategories": [
       {
         "name":"MS1 - Using Computational Models to Understand a Concept",
-        "tag":"#ms_computational_models_concepts"
+        "tag":"#ms_computational_models_concepts",
+        "description": "Computational models that demonstrate specific ideas or phenomena can serve as powerful learning tools. Students can use computational models to deepen their understanding of archival science."
       },
       {
        "name":"MS2 - Using Computational Models to Find and Test a Solution",
-       "tag":"#ms_computational_models_testing"
+       "tag":"#ms_computational_models_testing",
+       "description": "Computational models can be used to test hypotheses and discover solutions to problems. They make it possible to test many different solutions quickly, easily, and inexpensively before committing to a specific approach."
       },
       {
        "name":"MS3 - Assessing Computational Models",
-       "tag":"#ms_computational_models_assessment"
+       "tag":"#ms_computational_models_assessment",
+       "description": "Students who have mastered this practice will be able to articulate the similarities and differences between a computational model and the phenomenon that it is modeling."
       },
       {
        "name":"MS4 - Designing Computational Models",
-       "tag":"#ms_computational_models_design"
+       "tag":"#ms_computational_models_design",
+       "description": "Part of taking advantage of computational power… is designing new models that can be run on a computational device.  Students… will be able to define the components of the model, describe how they interact, decide what data will be produced by the model."
       },
       {
        "name":"MS5 - Constructing Computational Models",
-       "tag":"#ms_computational_models_constructing"
+       "tag":"#ms_computational_models_constructing",
+       "description": "An important practice… is the ability to create new or extend existing computational models. This requires being able to encode the model features in a way that a computer can interpret."
       }
     ]
    },
    {
     "name":"Computational Problem Solving Practices",
     "tag":"#CPS",
+    "description": "Problem solving is central to archival inquiry.",
     "subcategories": [
       {
         "name":"CPS1 - Preparing problems for Comp solutions",
-        "tag":"#cps_preparing_problems"
+        "tag":"#cps_preparing_problems",
+        "description": "While some problems naturally lend themselves to computational solutions, more often, problems must be reframed so that existing computational tools can be utilized. Strategies for doing this include decomposing problems into subproblems, reframing new problems into known problems for which computational tools already exist, and simplifying complex problems so the mapping of problem features onto computational solutions is more accessible."
       },
       {
        "name":"CPS2 - Programming",
-       "tag":"#cps_programming"
+       "tag":"#cps_programming",
+       "description": "Enabling students to explore archival problems using computational problem solving practices such as programming, algorithm development, and creating computational abstractions. The ability to encode instructions in such a way that a computer can execute them is a powerful skill for investigating archival problems.  Programs include ten-line Python scripts."
       },
       {
        "name":"CPS3 - Choosing Effective Computational tools",
-       "tag":"#cps_choosing_tools"
+       "tag":"#cps_choosing_tools",
+       "description": "Students who have mastered this practice will be able to articulate the pros and cons of using various computational tools and be able to make an informed, justifiable decision."
       },
       {
        "name":"CPS4 - Assessing different approaches to problem-solving",
-       "tag":"#cps_problem-solving_approaches"
+       "tag":"#cps_problem-solving_approaches",
+       "description": "When there are multiple approaches to solving a problem, or multiple solutions to choose from, it is important to be able to assess the options and make an informed decision about which route to follow. Even if two different approaches produce the same correct result, there are other dimensions that should be considered when choosing a solution or approach such as cost, time, durability, extendibility, reusability, and flexibility."
       },
       {
        "name":"CPS5 - Developing Modular Computational Solutions",
-       "tag":"#cps_developing_modular_solutions"
+       "tag":"#cps_developing_modular_solutions",
+       "description": "Students who have mastered this practice will be able to develop solutions that consist of modular, reusable components and take advantage of the modularity of their solution in both working on the current problem and reusing pieces of previous solutions when confronting new challenges."
       },
       {
         "name":"CPS6 - Creating Computational Abstractions",
-        "tag":"#cps_creating_abstractions"
+        "tag":"#cps_creating_abstractions",
+        "description": "The ability to create and use abstractions is used constantly across archival science undertakings, be it creating computational abstractions when writing a program, generating visualizations of data to communicate an idea or finding, defining the scope or scale of a problem or creating models to further explore or understand a given phenomenon."
       },
       {
         "name":"CPS7 - Troubleshooting and Debugging",
-        "tag":"#cps_troubleshooting_debugging"
+        "tag":"#cps_troubleshooting_debugging",
+        "description": "Troubleshooting broadly refers to the process of figuring out why something is not working or behaving as expected.  There are a number of strategies one can employ while troubleshooting a problem, including clearly identifying the issue, systematically testing the system to isolate the source of the error, and reproducing the problem so that potential solutions can be tested reliably."
       }
     ]
    },
    {
     "name":"Systems Thinking Practices",
     "tag":"#ST",
+    "description": "Systems thinking analyses… focus on an inclusive examination of how the system and its constituent parts interact and relate to one another as a whole.",
     "subcategories": [
       {
         "name":"ST1 - Investigating Complex Systems",
-        "tag":"#st_investigating_complex_systems"
+        "tag":"#st_investigating_complex_systems",
+        "description": "Students who have mastered this practice will be able to pose questions about, design and carry out investigations on, and ultimately interpret and make sense of, the data gathered about a system as a single entity... Computational tools such models and simulations are especially useful in such investigations."
       },
       {
        "name":"ST2 - Understanding Relationships within Systems",
-       "tag":"#st_understanding_relationships"
+       "tag":"#st_understanding_relationships",
+       "description" : "Computational tools are useful for conducting such inquiry as they can provide learners with controls for isolating different elements, investigating their behaviors, and exploring how they interact with other components of the system."
       },
       {
        "name":"ST3 - Thinking in Levels",
-       "tag":"#st_level_thinking"
+       "tag":"#st_level_thinking",
+       "description" : "Students who have mastered this practice will be able to identify different levels of a given system, articulate the behavior of each level with respect to the system as a whole, and be able to move back and forth between levels, correctly attributing features of the system to the appropriate level."
       },
       {
        "name":"ST4 - Communicating Information about a System",
-       "tag":"#st_communicating_information"
+       "tag":"#st_communicating_information",
+       "description": "Students who have mastered this practice will be able to communicate information they have learned about a system in a way that makes the information accessible to viewers who do not know the exact details of the system from which the information was drawn."
       },
       {
-       "name":"ST5 - Defining Systems",
-       "tag":"#st_defining_systems"
-      },
-      {
-        "name":"ST6 - Managing Complexity",
-        "tag":"#st_managing_complexity"
+       "name":"ST5 - Defining Systems and Managing Complexity",
+       "tag":"#st_defining_systems",
+       "description": "Students who have mastered this practice will be able to define the boundaries of a system so that they can then use the resulting system as a domain for investigating a specific question as well as to identify ways to simplify an existing system without compromising its ability to be used for a specified purpose."
       }
     ]
    }
